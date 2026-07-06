@@ -1,0 +1,198 @@
+export type Lang = "en" | "ar";
+
+export const translations = {
+  en: {
+    dir: "ltr",
+    langLabel: "العربية",
+    company: "Switches Market",
+    tagline: "Networks · VOIP · Artificial Intelligence",
+    quoteFor: "Quotation prepared for",
+    clientName: "Mr. Mohamed",
+    ref: "Ref",
+    issued: "Issue Date",
+    validUntil: "Valid Until",
+    validityNote: "This quotation is valid for 1 week from the issue date.",
+
+    heroKicker: "Enterprise VOIP Proposal",
+    heroTitle: "Cisco CUCM Voice System",
+    heroSub: "A complete Cisco Unified Communications Manager deployment engineered to power up to 1,600 hotel phone extensions with carrier-grade reliability.",
+    ctaScroll: "View the Proposal",
+
+    overviewTitle: "Project Overview",
+    overviewLead: "We are delivering a full-scale Cisco CUCM (Call Manager) voice platform, purpose-built for your hotel. The system scales up to 1,600 IP phone extensions, with unified call control, HD voice, voicemail, and centralized management from a single dashboard.",
+    stepsTitle: "Execution Roadmap",
+    steps: [
+      { t: "Site Survey & Design", d: "On-site assessment, network readiness audit, IP plan, dial plan and call-flow design tailored to hotel operations." },
+      { t: "Hardware Staging", d: "Call Manager server provisioning, firmware, hardening, redundancy and backup configuration." },
+      { t: "CUCM Installation & Licensing", d: "Fresh CUCM install, license activation for 1,600 endpoints, partitions, CSS, and route patterns." },
+      { t: "Phone Provisioning", d: "Auto-registration and template-based provisioning for the 7945 & 7841 endpoints, per-room extension mapping." },
+      { t: "Integration & Testing", d: "PSTN/SIP trunk integration, voicemail, call recording hooks, internal/external call testing." },
+      { t: "Handover & Training", d: "Live handover, admin training, documentation pack, and 1 month full support & warranty." },
+    ],
+    benefitsTitle: "What You Get",
+    benefits: [
+      { t: "Scale to 1,600 Extensions", d: "One platform for the entire property — rooms, admin, restaurants and back-of-house." },
+      { t: "HD Voice & Reliability", d: "Cisco-grade voice quality with high availability architecture." },
+      { t: "Centralized Management", d: "Single pane of glass for every phone, extension, and route." },
+      { t: "Future-Ready", d: "Ready for integration with AI assistants, contact center, and analytics." },
+      { t: "1 Month Warranty", d: "Full technical support and warranty from day of delivery." },
+      { t: "Turn-key Delivery", d: "Handed over fully configured and operational — no loose ends." },
+    ],
+
+    devicesTitle: "Bill of Materials",
+    devicesSub: "Each unit is priced individually. Multiply by the quantity you need.",
+    perUnit: "per unit",
+
+    items: {
+      server: {
+        name: "Call Manager Server",
+        spec: "DDR3 32GB · 1.5TB Storage · 2.4 GHz CPU",
+        why: "The heart of the system. Hosts CUCM, handles call signaling, registration and routing for every extension in the hotel.",
+        features: ["Enterprise-grade hardware", "32GB DDR3 memory", "1.5TB storage", "2.4 GHz multi-core CPU", "Redundant-ready"],
+      },
+      license: {
+        name: "CUCM License — 1,600 Endpoints",
+        spec: "Full activation up to 1,600 IP phone extensions",
+        why: "Unlocks CUCM to register and manage every phone across the property, with full call features per user.",
+        features: ["Up to 1,600 extensions", "Unified Communications features", "Voicemail, presence, mobility ready", "Genuine Cisco licensing"],
+      },
+      p7945: {
+        name: "Cisco IP Phone 7945",
+        spec: "Color display · 2 lines · Gigabit Ethernet",
+        why: "Executive-grade color IP phone. Ideal for management, front desk, VIP suites.",
+        features: ["Color LCD display", "2 line appearances", "Full-duplex speakerphone", "Gigabit Ethernet"],
+        qtyNote: "Unlimited quantity available",
+      },
+      p7841: {
+        name: "Cisco IP Phone 7841",
+        spec: "Backlit display · 4 lines · Wideband HD voice",
+        why: "The workhorse phone for guest rooms and staff. Sleek design, HD voice, energy efficient.",
+        features: ["4-line backlit display", "Wideband HD voice", "Energy efficient PoE", "Gigabit Ethernet"],
+        qtyNote: "Only 100 units available",
+      },
+      setup: {
+        name: "Full System Setup & Handover",
+        spec: "Design · Installation · Configuration · Handover · 1 Month Warranty & Support",
+        why: "End-to-end delivery. We hand over the platform fully operational, with training and warranty.",
+        features: ["Complete deployment", "System documentation", "Admin training", "1 month warranty & support"],
+      },
+    },
+
+    importNote: "All Cisco hardware is imported from abroad.",
+
+    priceTitle: "Price Summary",
+    priceSub: "Prices in Egyptian Pounds (EGP). Quantities are indicative — final quantity chosen by the client.",
+    thItem: "Item",
+    thQty: "Qty",
+    thUnit: "Unit Price",
+    thTotal: "Total",
+    subtotal: "Subtotal (before VAT)",
+    vat: "VAT 14%",
+    grandTotal: "Grand Total",
+    kNote: "Prices shown in K (thousands) for readability.",
+
+    contactTitle: "Ready to move forward?",
+    contactSub: "Reach out any time — we'll get you online fast.",
+    callBtn: "Call Us",
+    whatsBtn: "WhatsApp",
+
+    footer: "© 2026 Switches Market — Networks · VOIP · AI",
+  },
+  ar: {
+    dir: "rtl",
+    langLabel: "English",
+    company: "سويتشز ماركت",
+    tagline: "شبكات · فويب · ذكاء اصطناعي",
+    quoteFor: "عرض سعر مقدم إلى",
+    clientName: "الأستاذ / محمد",
+    ref: "المرجع",
+    issued: "تاريخ الإصدار",
+    validUntil: "صالح حتى",
+    validityNote: "هذا العرض صالح لمدة أسبوع واحد من تاريخ الإصدار.",
+
+    heroKicker: "عرض حلول الاتصالات",
+    heroTitle: "نظام سيسكو CUCM للاتصالات الصوتية",
+    heroSub: "تنفيذ متكامل لنظام Cisco Unified Communications Manager يخدم حتى 1600 تحويلة تليفون بالفندق بموثوقية على مستوى المؤسسات.",
+    ctaScroll: "استعرض العرض",
+
+    overviewTitle: "نظرة عامة على المشروع",
+    overviewLead: "نقوم بتنفيذ منظومة صوتية متكاملة على نظام Cisco CUCM (Call Manager) مصممة خصيصاً لفندقكم. يدعم النظام حتى 1600 تحويلة تليفون IP مع تحكم موحد في المكالمات، جودة صوت عالية، بريد صوتي، وإدارة مركزية من لوحة واحدة.",
+    stepsTitle: "خطوات التنفيذ",
+    steps: [
+      { t: "المعاينة والتصميم", d: "معاينة الموقع، مراجعة جاهزية الشبكة، تصميم خطة الـ IP وخطة الاتصال ومسارات المكالمات بما يناسب تشغيل الفندق." },
+      { t: "تجهيز الأجهزة", d: "إعداد سيرفر الـ Call Manager، تحديث الفيرموير، تأمين الجهاز وإعداد النسخ الاحتياطي." },
+      { t: "تثبيت وترخيص CUCM", d: "تثبيت نظيف لنظام CUCM، تفعيل الترخيص لعدد 1600 تحويلة، إعداد الـ Partitions و CSS و Route Patterns." },
+      { t: "برمجة التليفونات", d: "تسجيل تلقائي وقوالب برمجة لتليفونات 7945 و 7841، وربط كل غرفة بتحويلتها." },
+      { t: "التكامل والاختبار", d: "ربط الخطوط الخارجية PSTN/SIP، البريد الصوتي، ربط تسجيل المكالمات، واختبار كامل داخلي وخارجي." },
+      { t: "التسليم والتدريب", d: "تسليم فعلي، تدريب الإدارة، توثيق كامل، وضمان ودعم لمدة شهر." },
+    ],
+    benefitsTitle: "المزايا التي ستحصل عليها",
+    benefits: [
+      { t: "قابلية التوسع حتى 1600 تحويلة", d: "منصة واحدة تخدم كامل الفندق: الغرف، الإدارة، المطاعم، وخدمات الظهر." },
+      { t: "جودة صوت HD وموثوقية عالية", d: "جودة صوت بمعايير سيسكو مع بنية عالية التوافر." },
+      { t: "إدارة مركزية", d: "واجهة إدارة موحدة لكل تليفون وتحويلة ومسار." },
+      { t: "جاهز للمستقبل", d: "جاهز للتكامل مع مساعدي الذكاء الاصطناعي، الكول سنتر، والتحليلات." },
+      { t: "ضمان شهر كامل", d: "دعم فني وضمان كامل من تاريخ التسليم." },
+      { t: "تسليم Turn-Key", d: "تسليم النظام مبرمج ومشغل بالكامل بدون أي تعقيدات." },
+    ],
+
+    devicesTitle: "قائمة الأصناف",
+    devicesSub: "كل صنف مسعّر بالعدة الواحدة. اختر الكمية التي تحتاجها.",
+    perUnit: "للعدة",
+
+    items: {
+      server: {
+        name: "سيرفر Call Manager",
+        spec: "رامات 32 جيجا DDR3 · تخزين 1.5 تيرا · معالج 2.4 جيجا هرتز",
+        why: "قلب النظام. يستضيف نظام CUCM ويتحكم في إشارات المكالمات وتسجيل وتوجيه كل تحويلة في الفندق.",
+        features: ["مواصفات مؤسسية", "رامات 32 جيجا DDR3", "تخزين 1.5 تيرا", "معالج 2.4 جيجا هرتز متعدد الأنوية", "جاهز للتشغيل الاحتياطي"],
+      },
+      license: {
+        name: "ترخيص CUCM لعدد 1600 تحويلة",
+        spec: "تفعيل كامل حتى 1600 تحويلة تليفون IP",
+        why: "يفتح النظام لتسجيل وإدارة كل التليفونات في الفندق مع كل مزايا الاتصال لكل مستخدم.",
+        features: ["حتى 1600 تحويلة", "مزايا الاتصالات الموحدة", "جاهز للبريد الصوتي والحضور والتنقل", "ترخيص سيسكو أصلي"],
+      },
+      p7945: {
+        name: "تليفون سيسكو 7945",
+        spec: "شاشة ملونة · خطين · جيجابت إيثرنت",
+        why: "تليفون IP فاخر بشاشة ملونة. مناسب للإدارة، الاستقبال، وأجنحة الـ VIP.",
+        features: ["شاشة LCD ملونة", "خطين اتصال", "سماعة Full-duplex", "جيجابت إيثرنت"],
+        qtyNote: "الكمية مفتوحة",
+      },
+      p7841: {
+        name: "تليفون سيسكو 7841",
+        spec: "شاشة مضيئة · 4 خطوط · صوت HD واسع النطاق",
+        why: "التليفون العملي لغرف النزلاء والموظفين. تصميم أنيق، صوت HD، وموفر للطاقة.",
+        features: ["شاشة مضيئة 4 خطوط", "صوت HD واسع النطاق", "موفر للطاقة PoE", "جيجابت إيثرنت"],
+        qtyNote: "الكمية المتاحة 100 قطعة فقط",
+      },
+      setup: {
+        name: "تجهيز وتسليم النظام بالكامل",
+        spec: "تصميم · تركيب · برمجة · تسليم · ضمان ودعم شهر",
+        why: "تسليم من الألف إلى الياء. النظام يُسلّم مشغل بالكامل مع التدريب والضمان.",
+        features: ["تنفيذ كامل", "توثيق للنظام", "تدريب الإدارة", "ضمان ودعم لمدة شهر"],
+      },
+    },
+
+    importNote: "جميع أجهزة سيسكو استيراد من الخارج.",
+
+    priceTitle: "ملخص السعر",
+    priceSub: "الأسعار بالجنيه المصري. الكميات مرجعية والعميل يحدد الكميات النهائية.",
+    thItem: "الصنف",
+    thQty: "الكمية",
+    thUnit: "سعر الوحدة",
+    thTotal: "الإجمالي",
+    subtotal: "الإجمالي قبل الضريبة",
+    vat: "ضريبة القيمة المضافة 14%",
+    grandTotal: "الإجمالي النهائي",
+    kNote: "الأسعار معروضة بصيغة K (الآلاف) لسهولة القراءة.",
+
+    contactTitle: "جاهز تبدأ؟",
+    contactSub: "تواصل معنا في أي وقت — هنكون معاك من أول لحظة.",
+    callBtn: "اتصل بنا",
+    whatsBtn: "واتساب",
+
+    footer: "© 2026 سويتشز ماركت — شبكات · فويب · ذكاء اصطناعي",
+  },
+};
